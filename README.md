@@ -1,32 +1,17 @@
-# Bank Account Simulator 
-A simple, beginner-friendly console-based Bank Account Management System built in Java.
+# Bank Account Simulator
 
-## Project Overview
-This is a menu-driven Java application that simulates basic banking operations:
-- Create a bank account with a unique account number
-- Deposit money
-- Withdraw money (with proper validation)
-- Check current balance
-- Full error handling (negative amounts, insufficient funds)
-
-Perfect project to learn OOP concepts, classes, methods, constructors, Scanner input, and basic control flow.
+A simple console-based bank account project in Java (perfect for beginners).
 
 ## Features
-- Clean menu interface
-- Input validation
-- Error messages for:
-  - Negative deposit/withdraw amounts
-  - Insufficient balance during withdrawal
-- Real-time balance updates
-- User-friendly console output
+- Create a bank account
+- Deposit money
+- Withdraw money (with "insufficient funds" error)
+- Check balance
+- Menu-driven interface
 
-## How to Run (Step-by-Step)
-
-1. Make sure you have Java installed  
-   (`java -version` in terminal should show version 17 or higher)
-
-2. Open terminal/command prompt in this project folder
-
-3. Compile the code:
+## How to Run
+1. Make sure Java is installed
+2. Open terminal/command prompt in this folder
+3. Compile:  
    ```bash
    javac src/*.java
